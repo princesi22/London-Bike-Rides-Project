@@ -1,5 +1,6 @@
 🚲 London Bike Rides Analysis & Visualization
 
+
 📌 Project Overview
 
 This project analyzes London bike-sharing rides data to uncover trends, seasonality, and the impact of weather and temperature on bike usage.
@@ -7,7 +8,7 @@ The analysis combines data cleaning, feature engineering, and interactive visual
 
 The final output is an interactive dashboard with moving averages and heatmaps to clearly show usage patterns over time.
 
-⸻
+
 
 🎯 Objectives
 	•	Analyze bike ride demand over time
@@ -16,7 +17,7 @@ The final output is an interactive dashboard with moving averages and heatmaps t
 	•	Visualize the relationship between temperature, wind speed, and ride count
 	•	Build a business-friendly interactive dashboard
 
-⸻
+
 
 🛠 Tools & Technologies Used
 	•	Python
@@ -27,7 +28,7 @@ The final output is an interactive dashboard with moving averages and heatmaps t
 	•	Jupyter Notebook
 	•	GitHub (version control & documentation)
 
-⸻
+
 
 📊 Key Features & Visualizations
 
@@ -55,7 +56,7 @@ The final output is an interactive dashboard with moving averages and heatmaps t
 	•	Wind speed (kph)
 	•	Helps identify optimal weather conditions for maximum bike usage
 
-⸻
+
 
 🧠 Key Insights
 	•	Bike rides increase significantly in moderate temperatures
@@ -63,7 +64,7 @@ The final output is an interactive dashboard with moving averages and heatmaps t
 	•	Summer and clear-weather days show peak demand
 	•	Moving averages help identify long-term trends beyond daily noise
 
-⸻
+
 
 📁 Dataset
 	•	London bike-sharing dataset
@@ -71,7 +72,7 @@ The final output is an interactive dashboard with moving averages and heatmaps t
 	•	Exported as:
 london_bike_final.xlsx
 
-⸻
+
 
 📂 Project Structure
 
@@ -86,7 +87,7 @@ london_bike_final.xlsx
 └── README.md
 
 
-⸻
+
 
 🚀 How to Use
 	1.	Clone the repository
@@ -94,7 +95,7 @@ london_bike_final.xlsx
 	3.	Open the Tableau .twbx file to interact with the dashboard
 	4.	Adjust filters (date range, moving average period) to explore insights
 
-⸻
+
 
 📈 Business Value
 	•	Helps urban planners & transport authorities understand demand
@@ -105,7 +106,7 @@ london_bike_final.xlsx
 	•	Visualization
 	•	Storytelling with data
 
-⸻
+
 
 👤 About Me
 
