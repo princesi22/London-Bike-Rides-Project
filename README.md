@@ -119,8 +119,8 @@ Aspiring Data Analyst with strong skills in:
 
 📌 Open to Data Analyst / Business Analyst opportunities
 
-Dashboard Preview
-Dashboard Image Link:
-https://github.com/princesi22/London-Bike-Rides-Project/blob/main/London%20Bike%20Ride%20Dashboard.png
+**Dashboard Preview**
+
+![London Bike Ride Dashboard](London%20Bike%20Ride%20Dashboard.png)
 
 
