@@ -4,10 +4,10 @@
 
 ### *Uncovering Urban Mobility Patterns Through Data-Driven Insights*
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/princesi22/London-Bike-Rides)
-[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://github.com/princesi22/London-Bike-Rides)
 [![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://github.com/princesi22/London-Bike-Rides)
-[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://github.com/princesi22/London-Bike-Rides)
+[![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge)](https://github.com/princesi22/London-Bike-Rides)
+[![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://github.com/princesi22/London-Bike-Rides)
+[![Data Visualization](https://img.shields.io/badge/Data-Visualization-blue?style=for-the-badge)](https://github.com/princesi22/London-Bike-Rides)
 
 ![London Bike Ride Dashboard](London%20Bike%20Ride%20Dashboard.png)
 
@@ -38,18 +38,18 @@
 
 The **London Bike Rides Analysis** project provides a comprehensive examination of London's bike-sharing system, analyzing ride patterns, seasonal variations, and weather impacts. This end-to-end analytics project combines:
 
-- 🐍 **Python data processing** for cleaning and transformation
-- 📊 **Statistical analysis** to uncover trends and patterns
-- 🎨 **Interactive visualizations** using Tableau
-- 📈 **Time-series techniques** including moving averages
+- 📊 **Tableau visualization** for interactive dashboard creation
+- 🔢 **DAX calculations** for advanced metrics and measures
+- 📈 **Time-series analysis** including moving averages
 - 🌡️ **Weather correlation analysis** for demand forecasting
+- 🎨 **Professional dashboard design** with dynamic filtering
 
 ### **Project Highlights:**
 
 - ✅ Real-world dataset from London's bike-sharing system
-- ✅ Complete data pipeline from raw data to dashboard
-- ✅ Advanced feature engineering and data transformation
+- ✅ Advanced DAX formulas for calculated measures
 - ✅ Interactive dashboard with dynamic filtering
+- ✅ Moving average calculations for trend smoothing
 - ✅ Business-focused insights for urban planning
 
 ---
@@ -64,9 +64,9 @@ This project aims to answer critical questions about urban bike-sharing systems:
 |-----------|-------------|-----------------|
 | **📊 Demand Analysis** | Analyze bike ride demand over time | Capacity planning |
 | **🌦️ Weather Patterns** | Understand seasonal and weather impacts | Operational optimization |
-| **📈 Trend Smoothing** | Use moving averages to reduce noise | Strategic forecasting |
+| **📈 Trend Smoothing** | Use DAX for moving averages to reduce noise | Strategic forecasting |
 | **🌡️ Temperature Correlation** | Visualize temp/wind vs. ride count | Resource allocation |
-| **💼 Dashboard Creation** | Build interactive business tool | Stakeholder communication |
+| **💼 Dashboard Creation** | Build interactive Tableau dashboard | Stakeholder communication |
 
 </div>
 
@@ -80,25 +80,21 @@ This project aims to answer critical questions about urban bike-sharing systems:
 
 | Category | Technology | Purpose |
 |----------|-----------|---------|
-| **Programming** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Data processing and analysis |
-| **Data Analysis** | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) | Data manipulation and cleaning |
-| **Numerical Computing** | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) | Mathematical operations |
-| **Visualization** | ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white) | Interactive dashboard |
-| **Development** | ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) | Notebook-based analysis |
-| **Data Export** | ![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white) | Data validation and export |
-| **Version Control** | ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) | Code management |
+| **Visualization** | ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white) | Interactive dashboard development |
+| **Calculations** | ![DAX](https://img.shields.io/badge/DAX-0078D4?style=flat-square) | Advanced measures and calculated fields |
+| **Data Management** | ![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white) | Data cleaning and preparation |
+| **Version Control** | ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) | Project documentation |
 
 </div>
 
 ### **Detailed Implementation:**
 
-- **🐍 Python** - Core language for data processing pipeline
-- **📊 Pandas** - Data manipulation, cleaning, and transformation
-- **🔢 NumPy** - Numerical operations and array processing
-- **📈 Excel** - Data export, validation, and stakeholder sharing
-- **🎨 Tableau** - Interactive dashboard with filters and parameters
-- **📓 Jupyter Notebook** - Exploratory data analysis and documentation
-- **🔗 GitHub** - Version control, collaboration, and project documentation
+- **🎨 Tableau Desktop** - Primary platform for dashboard creation and visualization
+- **🔢 DAX (Data Analysis Expressions)** - Custom calculations for moving averages, aggregations, and metrics
+- **📊 Tableau Calculated Fields** - Dynamic measures using DAX-like formulas
+- **📈 Excel** - Initial data cleaning, validation, and preparation
+- **🎯 Tableau Parameters** - Interactive controls for moving average periods
+- **🔗 GitHub** - Version control and project documentation
 
 ---
 
@@ -109,9 +105,15 @@ This project aims to answer critical questions about urban bike-sharing systems:
 **📈 Daily Ride Trends with Moving Averages**
 
 - **Daily bike ride counts** tracked over entire dataset period
-- **20-day moving average** to smooth short-term fluctuations and reveal long-term trends
+- **20-day moving average** calculated using DAX formulas to smooth short-term fluctuations
 - **Interactive date range selection** for focused period analysis
 - **Trend identification** to spot growth or decline patterns
+
+**DAX Implementation:**
+- Custom moving average calculations using DAX window functions
+- Dynamic period selection via Tableau parameters
+- Aggregated measures for daily, weekly, and monthly trends
+- Calculated fields for year-over-year comparisons
 
 **Why Moving Averages?**
 - Reduces daily noise and volatility
@@ -217,7 +219,7 @@ The project maps weather codes to human-readable labels for better understanding
 - **Dataset Name:** London Bike-Sharing System Data
 - **Coverage Period:** Multiple years of historical data
 - **Data Points:** Daily ride counts with weather variables
-- **Processing:** Cleaned and transformed using Python
+- **Processing:** Cleaned and transformed using Excel
 
 ### **Key Variables:**
 
@@ -233,9 +235,10 @@ The project maps weather codes to human-readable labels for better understanding
 
 ### **Data Quality:**
 
-- ✅ Missing values handled
+- ✅ Missing values handled in Excel
 - ✅ Outliers identified and addressed
-- ✅ Feature engineering applied
+- ✅ Data transformation applied in Tableau
+- ✅ DAX calculations for derived metrics
 - ✅ Data validated against source
 
 ### **Output Files:**
@@ -243,9 +246,9 @@ The project maps weather codes to human-readable labels for better understanding
 ```
 📄 london_bike_final.xlsx
    ├── Cleaned dataset
-   ├── Engineered features
-   ├── Moving averages calculated
-   └── Ready for Tableau import
+   ├── Structured for Tableau import
+   ├── Weather codes mapped
+   └── Ready for visualization
 ```
 
 ---
@@ -261,26 +264,20 @@ london-bike-rides/
 │   └── processed/
 │       └── london_bike_final.xlsx        # Cleaned & processed data
 │
-├── 📁 notebooks/
-│   ├── 01_data_exploration.ipynb         # Initial EDA
-│   ├── 02_data_cleaning.ipynb            # Data cleaning steps
-│   └── 03_feature_engineering.ipynb      # Feature creation
-│
 ├── 📁 tableau/
 │   ├── london_bike_dashboard.twb         # Tableau workbook
-│   └── london_bike_dashboard.twbx        # Packaged workbook
+│   └── london_bike_dashboard.twbx        # Packaged workbook (with data)
 │
 ├── 📁 images/
-│   ├── dashboard_preview.png             # Main dashboard
-│   ├── heatmap_example.png               # Heatmap visual
+│   ├── dashboard_preview.png             # Main dashboard screenshot
+│   ├── heatmap_example.png               # Heatmap visualization
 │   └── time_series.png                   # Time series chart
 │
-├── 📁 scripts/
-│   ├── data_processing.py                # Python processing scripts
-│   └── utils.py                          # Helper functions
+├── 📁 documentation/
+│   ├── DAX_formulas.md                   # DAX calculations documentation
+│   └── data_dictionary.md                # Variable descriptions
 │
 ├── 📄 README.md                          # Project documentation
-├── 📄 requirements.txt                   # Python dependencies
 └── 📄 .gitignore                         # Git ignore file
 ```
 
@@ -290,11 +287,9 @@ london-bike-rides/
 
 ### **Prerequisites:**
 
-```bash
-# Python 3.8 or higher
-# Tableau Desktop or Tableau Public
-# Jupyter Notebook or JupyterLab
-```
+- Tableau Desktop or Tableau Public (Version 2020.1 or later recommended)
+- Microsoft Excel (for viewing source data)
+- Basic understanding of Tableau and data visualization
 
 ### **Installation:**
 
@@ -304,41 +299,31 @@ git clone https://github.com/princesi22/London-Bike-Rides.git
 cd London-Bike-Rides
 ```
 
-**Step 2: Set Up Python Environment**
+**Step 2: Open the Tableau Dashboard**
 ```bash
-# Create virtual environment
-python -m venv venv
+# Option 1: Open packaged workbook (includes data)
+# Double-click: tableau/london_bike_dashboard.twbx
 
-# Activate virtual environment
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-**Step 3: Launch Jupyter Notebook**
-```bash
-jupyter notebook
-# Navigate to notebooks/ folder and open analysis files
-```
-
-**Step 4: Explore the Dashboard**
-```bash
+# Option 2: Open workbook (requires data connection)
 # Open Tableau Desktop
-# File -> Open -> london_bike_dashboard.twbx
-# Interact with filters and parameters
+# File -> Open -> london_bike_dashboard.twb
+# Connect to: data/processed/london_bike_final.xlsx
 ```
+
+**Step 3: Explore the Dashboard**
+- Use date range filter to customize time period
+- Adjust moving average parameter (7, 14, 20, 30 days)
+- Click on charts for drill-down details
+- Hover over data points for detailed tooltips
+- Export visualizations or data as needed
 
 ### **Quick Start Guide:**
 
-1. **🔍 Explore Data Cleaning** - Open `notebooks/02_data_cleaning.ipynb`
-2. **📊 Review Analysis** - Check `notebooks/03_feature_engineering.ipynb`
-3. **🎨 View Dashboard** - Open `tableau/london_bike_dashboard.twbx`
-4. **🎯 Adjust Filters** - Customize date range and moving average period
-5. **📈 Extract Insights** - Use interactive features to explore patterns
+1. **📊 View Dashboard** - Open `tableau/london_bike_dashboard.twbx`
+2. **🔍 Explore Data** - Check `data/processed/london_bike_final.xlsx`
+3. **🎯 Adjust Filters** - Customize date range and parameters
+4. **📈 Analyze Trends** - Use moving average selector
+5. **🌡️ Check Correlations** - Explore temperature-wind heatmap
 
 ---
 
@@ -390,14 +375,14 @@ This project showcases proficiency across the data analytics spectrum:
 
 | Skill Domain | Specific Competencies | Tools Used |
 |--------------|----------------------|------------|
-| **🐍 Python Programming** | Data manipulation, automation, scripting | Python, Pandas, NumPy |
-| **🧹 Data Cleaning** | Missing value handling, outlier detection, validation | Pandas |
-| **🔧 Feature Engineering** | Moving averages, date features, categorization | Pandas, NumPy |
-| **📊 Data Visualization** | Interactive dashboards, heatmaps, time-series | Tableau |
-| **📈 Statistical Analysis** | Trend analysis, correlation, seasonality | Pandas, NumPy |
-| **📖 Data Storytelling** | Insight generation, narrative building | Tableau, Markdown |
-| **🗄️ Data Management** | ETL pipeline, data export, validation | Python, Excel |
-| **💼 Business Acumen** | KPI definition, stakeholder focus, recommendations | Cross-functional |
+| **📊 Data Visualization** | Interactive dashboards, heatmaps, time-series charts | Tableau |
+| **🔢 Advanced Analytics** | DAX formulas, calculated fields, moving averages | Tableau, DAX |
+| **🧹 Data Preparation** | Data cleaning, validation, transformation | Excel |
+| **📈 Statistical Analysis** | Trend analysis, correlation, seasonality detection | Tableau |
+| **🎨 Dashboard Design** | UI/UX principles, color theory, layout optimization | Tableau |
+| **📖 Data Storytelling** | Insight generation, narrative building, presentation | Tableau |
+| **💼 Business Intelligence** | KPI definition, metric creation, stakeholder focus | Tableau, DAX |
+| **🗄️ Data Modeling** | Data relationships, aggregations, hierarchies | Tableau |
 
 </div>
 
@@ -415,12 +400,13 @@ This project showcases proficiency across the data analytics spectrum:
 
 ### **Dashboard Features:**
 
-- 📅 **Date Range Filter** - Select specific time periods
-- 📊 **Moving Average Selector** - Adjust smoothing period (7, 14, 20, 30 days)
-- 🌡️ **Temperature-Wind Heatmap** - Visual correlation analysis
-- 📈 **Trend Line** - Clear visualization of long-term patterns
-- 🎨 **Color-Coded Weather** - Intuitive weather condition display
-- 🔄 **Interactive Tooltips** - Detailed information on hover
+- 📅 **Date Range Filter** - Select specific time periods for analysis
+- 📊 **Moving Average Parameter** - Adjust smoothing period (7, 14, 20, 30 days) using DAX calculations
+- 🌡️ **Temperature-Wind Heatmap** - Visual correlation analysis using aggregated measures
+- 📈 **Trend Line** - Clear visualization of long-term patterns with calculated fields
+- 🎨 **Color-Coded Weather** - Intuitive weather condition display with custom formatting
+- 🔄 **Interactive Tooltips** - Detailed information on hover with DAX-driven metrics
+- 🎯 **Dynamic Calculations** - Real-time metric updates based on filter selections
 
 ---
 
@@ -430,15 +416,16 @@ This project showcases proficiency across the data analytics spectrum:
 
 ### **Prince Kumar Singh**
 
-*Aspiring Data Analyst | Python Developer | Visualization Specialist*
+*Aspiring Data Analyst | Tableau Developer | DAX Specialist*
 
 **Core Competencies:**
-- 📊 Tableau & Power BI Dashboard Development
-- 🐍 Python (Pandas, NumPy, Data Analysis)
-- 💾 SQL (Database Querying & Analysis)
-- 📈 Data Visualization & Storytelling
-- 🧹 Data Cleaning & Transformation
-- 💼 Business Intelligence & Analytics
+- 📊 Tableau Desktop & Tableau Public (Dashboard Development)
+- 🔢 DAX (Data Analysis Expressions) for Advanced Calculations
+- 💼 Power BI & Business Intelligence Tools
+- 📈 Data Visualization & Interactive Dashboard Design
+- 🧹 Data Cleaning & Transformation (Excel)
+- 📉 Statistical Analysis & Trend Identification
+- 💡 Business Intelligence & Analytics
 
 **Career Goals:** Actively seeking **Data Analyst** or **Business Analyst** opportunities
 
@@ -465,11 +452,12 @@ Contributions and suggestions are welcome!
 
 ### **Contribution Ideas:**
 
-- 📊 Additional visualizations
+- 📊 Additional visualizations or chart types
 - 🔍 More detailed weather analysis
-- 🤖 Machine learning predictions
-- 📱 Mobile dashboard version
-- 🌍 Comparison with other cities
+- 🔢 Advanced DAX calculations and measures
+- 📱 Mobile-optimized dashboard version
+- 🌍 Comparison with other cities' bike-sharing data
+- 📈 Predictive analytics using Tableau forecasting
 
 ---
 
@@ -481,17 +469,17 @@ This project is available for educational and portfolio purposes. Please provide
 
 ## 📚 Additional Resources
 
-- **📖 Documentation:** [Pandas Docs](https://pandas.pydata.org/docs/) | [Tableau Docs](https://help.tableau.com/)
-- **🎓 Learning:** [Python for Data Analysis](https://wesmckinney.com/book/) | [Tableau Training](https://www.tableau.com/learn/training)
-- **📊 Datasets:** [London Data Store](https://data.london.gov.uk/)
+- **📖 Documentation:** [Tableau Help](https://help.tableau.com/) | [DAX Guide](https://dax.guide/)
+- **🎓 Learning:** [Tableau Training](https://www.tableau.com/learn/training) | [DAX Patterns](https://www.daxpatterns.com/)
+- **📊 Datasets:** [London Data Store](https://data.london.gov.uk/) | [TfL Open Data](https://tfl.gov.uk/info-for/open-data-users/)
 
 ---
 
 ## ⭐ Acknowledgments
 
 - 🚲 Transport for London for providing bike-sharing data
-- 🐍 Python and Pandas community for excellent tools
-- 📊 Tableau community for visualization inspiration
+- 📊 Tableau community for visualization inspiration and best practices
+- 🔢 DAX community for calculation techniques and optimization tips
 - 🌐 Open data initiatives enabling this analysis
 
 ---
@@ -502,9 +490,9 @@ This project is available for educational and portfolio purposes. Please provide
 
 ### **🚲 Pedaling through data, one insight at a time**
 
-**Made with ❤️ and 🐍 by Prince Kumar Singh**
+**Made with ❤️ and 📊 by Prince Kumar Singh**
 
-*"Data is the new oil, but analytics is the combustion engine."*
+*"Transforming data into visual stories, one dashboard at a time."*
 
 ---
 
